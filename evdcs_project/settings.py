@@ -27,8 +27,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
+    'crispy_bootstrap4',
+    'evdcs',
     'authentication',
-    'evdcs'
 ]
 
 MIDDLEWARE = [
@@ -102,3 +104,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+LOGOUT_REDIRECT_URL = '/auth/login'  # Replace '/dashboard/' with the appropriate URL
