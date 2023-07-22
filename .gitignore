@@ -1,0 +1,47 @@
+# Ignore database files
+db.sqlite3
+
+# Ignore static files (collected static files should be served by your web server)
+/static/
+
+# Ignore media files (user-uploaded content, like images)
+/media/
+
+# Ignore the virtual environment
+/venv/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore local settings
+/local_settings.py
+
+# Ignore development and temporary files
+*.log
+*.pot
+*.pyc
+*.swp
+*~
+
+# Ignore the secret key
+.secret_key
+
+# Ignore .vscode directory (if using Visual Studio Code)
+.vscode/
+
+# Ignore IDE-specific files (adjust as needed)
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS metadata
+.DS_Store
+
+# Ignore system-specific temporary files
+Thumbs.db
+
+# Ignore the local database if you use SQLite
+*.sqlite3
+*.db
